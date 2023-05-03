@@ -13,8 +13,7 @@ const bgrColor = props => {
       return ` rgba(160, 95, 16, 0.6);`;
     case 'bad':
       return ` rgba(148, 7, 7, 0.2);`;
-    default:
-      console.log('Invalid subscription type');
+    default: console.log('Invalid subscription type');
   }
 };
 
